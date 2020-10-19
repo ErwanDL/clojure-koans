@@ -1,8 +1,11 @@
+My solutions to the [Clojure Koans](https://github.com/functional-koans/clojure-koans), a set of exercises designed to help get familiar with Clojure concepts and basics.
+
+---
+
 # Clojure Koans
 
 The Clojure Koans are a fun way to get started with Clojure - no experience
 assumed or required. Follow the instructions below to start making tests pass!
-
 
 ## Getting Started
 
@@ -14,19 +17,18 @@ completed.
 
 You have a few options for installation:
 
-- Install the dependencies for the koans (such as Clojure) on your machine
-- Use Vagrant and the configuration in this repository
-- Use Docker
+-   Install the dependencies for the koans (such as Clojure) on your machine
+-   Use Vagrant and the configuration in this repository
+-   Use Docker
 
 Instructions for each option are below!
-
 
 ### Installation on Your Machine
 
 The only things you'll need to run the Clojure Koans are:
 
-- JDK (I suggest version 8, but anything 6 or above should work fine)
-- [Leiningen](http://github.com/technomancy/leiningen), a build tool for Clojure
+-   JDK (I suggest version 8, but anything 6 or above should work fine)
+-   [Leiningen](http://github.com/technomancy/leiningen), a build tool for Clojure
 
 Once you've cloned this repo and installed the dependencies, you can run:
 
@@ -36,7 +38,6 @@ lein repl
 
 to make sure all the dependencies get downloaded properly (and then `(exit)`
 when you want to quit). See below for details on the REPL.
-
 
 ### Installation with Vagrant
 
@@ -50,7 +51,6 @@ vagrant ssh
 cd /vagrant
 lein koan run
 ```
-
 
 ### Installation with Docker
 
@@ -68,7 +68,6 @@ To start up a REPL:
 ```
 docker run --rm -it -v $(pwd):/app -w /app clojure lein repl
 ```
-
 
 ## Running the Koans
 
@@ -94,7 +93,7 @@ You'll see something like this:
 
 The output is telling you that you have a failing test in the file named
 `01_equalities.clj`, on line 3. So you need to open that file up and make
-it pass!  You'll always be filling in the blanks to make tests pass.
+it pass! You'll always be filling in the blanks to make tests pass.
 Sometimes there could be several correct answers (or even an infinite number):
 any of them will work in these cases. Some tests will pass even if you replace
 the blanks with whitespace (or nothing) instead of the expected answer. Make sure
@@ -107,8 +106,7 @@ up.
 
 While it might be easy (especially at first) to fill in the blanks making
 things pass, you should work thoughtfully, making sure you understand why the
-answer is what it is.  Enjoy your path to Clojure enlightenment!
-
+answer is what it is. Enjoy your path to Clojure enlightenment!
 
 ## Trying more things out
 
@@ -140,14 +138,13 @@ will show you what those commands mean.
 
 You can exit the REPL with `CTRL-d`, `(exit)`, or `(quit)`.
 
-
 ## Contributing
 
-Patches are encouraged!  Make sure the answer sheet still passes
+Patches are encouraged! Make sure the answer sheet still passes
 (`lein koan test`), and send a pull request.
 
 The file ideaboard.txt has lots of good ideas for new koans to start, or things
-to add to existing koans.  So write some fun exercises, add your answers to
+to add to existing koans. So write some fun exercises, add your answers to
 `resources/koans.clj`, and we'll get them in there!
 
 Please follow the guidelines in
@@ -158,11 +155,9 @@ making the pull request. This makes patches easier to review.
 Feel free to contact me (Colin Jones / trptcolin) on Github or elsewhere if you
 have any questions or want more direction before you start pitching in.
 
-
 ## Contributors
 
 https://github.com/functional-koans/clojure-koans/contributors
-
 
 ## Credits
 
@@ -175,7 +170,6 @@ initiative, this project would not exist.
 Using the [koans](http://en.wikipedia.org/wiki/koan) metaphor as a tool for
 learning a programming language started with the
 [Ruby Koans](http://rubykoans.com) by [EdgeCase](http://github.com/edgecase).
-
 
 ## License
 
